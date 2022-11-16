@@ -1,16 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Jogos from './telas/jogos';
 
 function App() {
   return (
+    <Router>
       <div className="App">
         <header className="App-header">
           <h3>BINGO DO MEDO</h3>
         </header>
-        <Jogos></Jogos>
-        <footer>por raul396</footer>
+        <Routes className="routes">
+          <Route path='/bingomedo' element={<Jogos />}></Route>
+        </Routes>
+        <footer>Por raul396</footer>
       </div>
+    </Router>
   );
 }
 
