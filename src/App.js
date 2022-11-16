@@ -8,7 +8,7 @@ function App() {
         <header className="App-header">
           <h3>BINGO DO MEDO</h3>
         </header>
-        <Jogos />
+        <Jogos></Jogos>
         <footer>por raul396</footer>
       </div>
   );
