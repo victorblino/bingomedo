@@ -1,0 +1,40 @@
+.celula {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 1px rgb(66, 29, 29) solid;
+    background-color: #3f2c2c;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    margin: 5px;
+    box-shadow: 5px 25px 5px rgb(85, 0, 0);
+    overflow-wrap: anywhere;
+    color: white;
+    
+}
+
+.celulamenor {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 1px rgb(66, 29, 29) solid;
+    background-color: #3f2c2c;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    margin: 5px;
+    box-shadow: 5px 25px 5px rgb(85, 0, 0);
+    overflow-wrap: anywhere;
+    color: white;
+    
+}
+
+.cellselecionado{
+    border: 2px rgb(255, 6, 6) solid;
+    background-color: rgb(73, 22, 22);
+}

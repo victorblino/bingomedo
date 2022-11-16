@@ -1,0 +1,125 @@
+.jogos {
+    display: flex;
+    margin-top: 50px;
+    height: 97vh;
+    background-color: #0e0303;
+    background-image: url("../../models/foda.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0px;
+    background-blend-mode: color-dodge;
+    color: white;
+}
+
+textarea {
+    font-size: large;
+    height: 50vh;
+    width: 100vh;
+    background-color: #310c0c;
+    border: 1px solid rgb(70, 13, 13);
+    border-radius: 10px;
+    margin: 3px;
+    resize: none;
+    color: white;
+}
+
+.lista {
+    position: absolute;
+    top: 10vh;
+    left: 100vh;
+    width: 100vh;
+    height: 50vh;
+}
+
+#bingo {
+    display: flex;
+    flex-flow: wrap;
+    grid-column: initial;
+    align-content: center;
+    justify-content: center;
+}
+
+#x3div {
+    display: flex;
+    flex-flow: wrap;
+    grid-column: initial;
+    position: absolute;
+    left: 25vh;
+    top: 30vh;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+#x4div {
+    display: flex;
+    flex-flow: wrap;
+    grid-column: initial;
+    position: absolute;
+    left: 20vh;
+    top: 25vh;
+    max-height: 450px;
+    max-width: 450px;
+}
+
+#x5div {
+    display: flex;
+    flex-flow: wrap;
+    grid-column: initial;
+    position: absolute;
+    left: 10vh;
+    top: 13vh;
+    max-height: 550px;
+    max-width: 550px;
+}
+
+#x6div {
+    display: flex;
+    flex-flow: wrap;
+    grid-column: initial;
+    position: absolute;
+    left: 10vh;
+    top: 15vh;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.escondido {
+    visibility: hidden;
+}
+
+.aparece {
+    visibility: visible;
+}
+
+#foda {
+    display: flex;
+    align-items: center;
+}
+
+#btnAplicar {
+    margin-left: 100px;
+    height: 10vh;
+    width: 15vh;
+    position: absolute;
+    right: -1vh;
+    background-color: #310c0c;
+    color: white;
+    border: 1px solid #310c0c;
+    border-radius: 15px;
+}
+
+.selecionado {
+    color: rgb(255, 81, 81);
+}
+
+.naosel {
+    color: white;
+}
+
+h5 {
+    margin-left: 5vh;
+}
+
+Celula{
+    display: block;
+}
